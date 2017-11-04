@@ -21,7 +21,7 @@ import { RecSenhaPage } from './../rec-senha/rec-senha';
 export class LoginPage {
     
 
-    user = {   } as User;
+    user = { } as User;
 
     error;
 

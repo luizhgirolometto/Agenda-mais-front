@@ -1,3 +1,5 @@
+import { AuthProvider } from './../../providers/auth/auth';
+import { User } from './../../models/user';
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
@@ -14,12 +16,21 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'rec-senha.html',
 })
 export class RecSenhaPage {
+ 
+
+  user = { } as User;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad RecSenhaPage');
+  }
+
+  recSenha(user: User){
+
+    
+
   }
 
 }
